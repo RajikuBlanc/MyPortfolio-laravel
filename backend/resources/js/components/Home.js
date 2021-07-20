@@ -6,6 +6,8 @@ function Example() {
     <>
       <h1>Hello React!</h1>
       <h2>test</h2>
+      <h1>これはテストです</h1>
+      <p>hello</p>
     </>
   );
 }
