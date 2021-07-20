@@ -35,8 +35,16 @@ cp .env.example .env
 ```
 
 ### サーバーを開く
+```shell
+docker-compose exec app php artisan serve
 ```
-http://127.0.0.1:8080/
-```
+
 Keyを作成しろと言われるので
 Generate App Keyボタンをおす
+
+### ホットリロード
+新しいターミナルを開いて
+```shell
+cd backend
+npm run watch
+```
